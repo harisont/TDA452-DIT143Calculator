@@ -5,7 +5,7 @@ If you had trouble with the libraries required for lab 4, this hopefully solves 
 3. move the repository folder
 4. run `stack build`.
 
-Unless this fails, you should be good to go: stack installed everything you need _locally to your project folder_ for you, based on the config files (`stack.yaml` and `calculator.cabal`. Take a look if you want). 
+Unless this fails, you should be good to go: stack installed everything you need _locally to your project folder_, based on the config files (`stack.yaml` and `calculator.cabal`. Take a look if you want. And maybe change `author` and `maintainer`). 
 
 Now you can, for instance, run:
 
@@ -13,4 +13,4 @@ Now you can, for instance, run:
 - `stack exec Calculator` to execute the program
 - `stack ghci` to evaluate expressions in the interpreter.
 
-If you are, unlike me, very curious about stack [here is the user guide](https://docs.haskellstack.org/en/stable/GUIDE/).
+If you are, unlike me, very curious about stack, [here is the user guide](https://docs.haskellstack.org/en/stable/GUIDE/).
