@@ -1,0 +1,8 @@
+resolver: lts-12.26
+
+packages:
+- .
+
+# so that `stack build --copy-bins` puts bin here
+local-bin-path: .
+
